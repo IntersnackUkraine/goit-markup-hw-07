@@ -1,0 +1,51 @@
+.pad {
+  padding-bottom: 0;
+}
+
+.sidebarh {
+  margin-top: 30px;
+  font-weight: var(--font-weight700);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.sidebarp {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: var(--font-weight400);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.sideb {
+  gap: 30px;
+}
+
+.itemremrem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mnbr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+}
+
+.mnb {
+  /* padding-top: 25px;
+    padding-bottom: 25px; */
+
+  background-color: #F5F4FA;
+}
+
+.mvbb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

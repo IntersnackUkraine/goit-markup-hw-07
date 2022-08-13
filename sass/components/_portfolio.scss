@@ -1,0 +1,40 @@
+.borhed {
+  border-bottom: solid 1px #EEEEEE;
+}
+
+.button-portolio {
+  margin-left: 8px;
+  border: none;
+  font-family: var(--font-roboto);
+  background-color: var(--main-background-section-button);
+  color: var(--main-header-color);
+  font-weight: var(--font-weight500);
+  font-size: 16px;
+  line-height: 1.65;
+  padding: 6px 22px;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+}
+
+.button-portolio:hover,
+.button-portolio:focus {
+  background-color: var(--logo-color-blue-blue);
+  color: var(--main-header-background-size);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+
+}
+
+.qwet:hover {
+  text-decoration: none;
+  box-shadow: var(--shadow)
+}
+
+.qwet {
+  cursor: pointer;
+}
+.one {
+  margin-left: 280px;
+}

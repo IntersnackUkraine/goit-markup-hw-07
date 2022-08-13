@@ -1,0 +1,35 @@
+.client-list-icon {
+  fill: #AFB1B8;
+  transition: fill var(--transition-timing-function);
+  transition: fill var(--transition-duration);
+}
+
+.client:hover .client-list-icon,
+.client:focus .client-list-icon {
+  fill: var(--logo-color-blue-blue);
+}
+
+.client {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  border: solid 1px #AFB1B8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+}
+
+.client:hover,
+.client:focus {
+  border-color: var(--logo-color-blue-blue);
+}
+
+.mnb-client {
+  width: 106px;
+  right: 60px;
+  background-color: var(--main-header-background-size);
+}

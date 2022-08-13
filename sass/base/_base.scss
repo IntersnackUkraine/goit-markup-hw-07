@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  text-decoration: none;
+  font-family: inherit;
+  display: flex;
+}
+body {
+  box-sizing: initial;
+  background-color: var(--main-header-background-size);
+  color: var(--border-top-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+body:focus {
+  transition: var(--transition-dur-and-func);
+}

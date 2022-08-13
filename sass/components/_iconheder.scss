@@ -1,0 +1,76 @@
+.mailto {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin-left: 305px;
+}
+
+.tel {
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.icon-smartphone {
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+}
+
+.icon-envelope {
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+}
+
+.yu {
+  margin-right: 10px;
+}
+
+.itemrem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+}
+
+.smartphone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smart {
+  margin-left: 30px;
+}
+
+.listmp {
+  list-style: none;
+  display: flex;
+}
+
+.listmp .menu-li:not(:last-child) {
+  margin-right: 50px;
+
+}
+
+.list .item:not(:last-child) {
+  margin-right: 30px;
+}
+.icon-envelope {
+  fill: #757575;
+}
+
+.icon-smartphone {
+  fill: #757575;
+}
+.smartphone:hover,
+.smartphone:focus {
+  fill: var(--logo-color-blue-blue);
+}
+
+.menu-item-van:hover .icon-envelope,
+.menu-item-van:focus .icon-envelope {
+  fill: var(--logo-color-blue-blue);
+}
+
+.menu-item-van:hover .icon-smartphone,
+.menu-item-van:focus .icon-smartphone {
+  fill: var(--logo-color-blue-blue);
+}

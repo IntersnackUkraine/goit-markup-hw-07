@@ -1,0 +1,78 @@
+.social-link {
+  margin-top: 16px;
+  justify-content: space-between;
+
+}
+
+.social-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socail-list-icon {
+  fill: #AFB1B8;
+}
+
+.list-linkrem:hover,
+.list-linkrem:focus {
+  background-color: var(--logo-color-blue-blue);
+}
+
+.list-linkrem:hover .socail-list-icon,
+.list-linkrem:focus .socail-list-icon {
+  fill: var(--main-header-background-size);
+
+}
+
+.socail-list-icon {
+  transition: fill var(--transition-timing-function);
+  transition: fill var(--transition-duration);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.list-linkrem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--main-header-background-size);
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.jobtitle {
+  margin-top: 10px;
+  font-weight: var(--font-weight400);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.jio {
+  border: transparent;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.team {
+  background-color: #F5F4FA;
+}
+
+.namejobtitle {
+  background-color: var(--main-header-background-size);
+  padding: 30px;
+}

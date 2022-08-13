@@ -1,0 +1,80 @@
+.overlay {
+  /* text-align: center; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding-left: 24px;
+  padding-top: 63px;
+  padding-right: 24px;
+  padding-bottom: 63px;
+  /* overflow: scroll; */
+  transform: translate(0, 100%);
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+
+}
+
+.team-list-item:hover .overlay,
+.team-list-item:focus .overlay {
+  transform: translate(0, 0);
+}
+
+.team-list-item {
+  text-decoration: none;
+  display: block;
+}
+
+.team-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ============================================== */
+.none {
+  display: none;
+}
+
+.qwe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-sizing: content-box;
+}
+
+.productweb {
+
+  padding: 20px 24px 20px 24px;
+  border: solid 1px #EEEEEE;
+}
+
+.sectportfolio {
+  padding-bottom: 104px;
+  padding-top: 84px;
+}
+
+.product {
+
+  font-weight: var(--font-weight700);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--border-top-color);
+}
+
+.web {
+  font-weight: var(--font-weight400);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
