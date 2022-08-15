@@ -1,5 +1,4 @@
 .overlay {
-  /* text-align: center; */
   position: absolute;
   left: 0;
   top: 0;
@@ -17,11 +16,10 @@
   padding-top: 63px;
   padding-right: 24px;
   padding-bottom: 63px;
-  /* overflow: scroll; */
   transform: translate(0, 100%);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
-
+  
 }
 
 .team-list-item:hover .overlay,

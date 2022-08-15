@@ -1,16 +1,33 @@
-.social-link-foo {
-  margin-top: 20px;
-  justify-content: space-between;
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--main-background-hooter-color);
 }
-
-.social-link-foo:not(:last-child) {
-  margin-right: 10px;
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
 }
-
+.footer-wrapper-item {
+  margin-right: 70px;
+}
 .footer-icon {
   fill: var(--main-header-background-size);
 }
-
+.social-link-foo {
+  margin-top: 20px;
+  justify-content: space-between;
+  &:not(:last-child) {
+      margin-right: 10px;
+    }
+}
+.name-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 .list-linkrem-footer {
   display: flex;
   justify-content: center;
@@ -21,44 +38,16 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
+      &:hover,
+      &:focus {
+        background-color: var(--logo-color-blue-blue);
+      }
 }
-
-.list-linkrem-footer:hover,
-.list-linkrem-footer:focus {
-  background-color: var(--logo-color-blue-blue);
-
-}
-
-.name-footer {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
 .logofooter {
   text-decoration: none;
   display: flex;
   margin-bottom: 20px;
 }
-
-.footer-wrapper {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-wrapper-item {
-  margin-right: 70px;
-}
-
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--main-background-hooter-color);
-}
-
 .logo-studio-footer {
   font-family: 'Raleway';
   font-weight: var(--font-weight700);
@@ -67,7 +56,6 @@
   letter-spacing: 0.03em;
   color: var(--main-header-background-size);
 }
-
 .address {
   font-style: var(--font-style);
   font-weight: var(--font-weight400);
@@ -75,7 +63,6 @@
   letter-spacing: 0.03em;
   color: var(--main-header-background-size);
 }
-
 .tel-footer {
   margin-top: 9px;
   font-style: var(--font-style);

@@ -18,4 +18,8 @@
   margin-top: 50px;
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
+    &:hover,
+    &:focus {
+      background-color: var(--homepage-button-color);
+    }
 }

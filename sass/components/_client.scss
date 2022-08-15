@@ -2,13 +2,11 @@
   fill: #AFB1B8;
   transition: fill var(--transition-timing-function);
   transition: fill var(--transition-duration);
+    .client:hover &,
+    .client:focus & {
+    fill: var(--logo-color-blue-blue);
+    }
 }
-
-.client:hover .client-list-icon,
-.client:focus .client-list-icon {
-  fill: var(--logo-color-blue-blue);
-}
-
 .client {
   display: flex;
   width: 170px;
@@ -21,13 +19,11 @@
   cursor: pointer;
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
+    &:hover,
+    &:focus {
+    border-color: var(--logo-color-blue-blue);
+  }
 }
-
-.client:hover,
-.client:focus {
-  border-color: var(--logo-color-blue-blue);
-}
-
 .mnb-client {
   width: 106px;
   right: 60px;

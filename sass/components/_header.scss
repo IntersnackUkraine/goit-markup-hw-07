@@ -1,22 +1,3 @@
-.rem {
-  display: flex;
-  align-items: center;
-}
-.menu-item:hover,
-.menu-item:focus {
-  color: var(--logo-color-blue-blue);
-}
-
-.menu-item-van:hover,
-.menu-item-van:focus {
-  color: var(--logo-color-blue-blue);
-}
-
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--homepage-button-color);
-}
-
 .menu-item {
   position: relative;
   display: inline-block;
@@ -29,15 +10,11 @@
   letter-spacing: 0.02em;
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
-
+    &:hover,
+    &:focus {
+      color: var(--logo-color-blue-blue);
+    }
 }
-
-.menu-item:hover,
-.menu-item:focus {
-  color: var(--logo-color-blue-blue);
-
-}
-
 .menu-item::after {
   content: '';
   display: block;
@@ -50,25 +27,8 @@
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-
 .menu-item:hover::after,
 .menu-item:focus::after {
-  background-color: var(--logo-color-blue-blue);
-
-}
-
-.current-li {
-  color: var(--logo-color-blue-blue);
-  position: relative;
-  transition-property: color;
-}
-
-.current-li:hover,
-.current-li:focus {
-  color: var(--logo-color-blue-blue);
-}
-
-.current-li::after {
   background-color: var(--logo-color-blue-blue);
 }
 .menu-item-van {
@@ -79,4 +39,39 @@
   color: var(--primary-text-color);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
+    &:hover,
+    &:focus {
+      color: var(--logo-color-blue-blue);
+    }
+}
+.icon-envelope {
+  fill: #757575;
+      transition: var(--transition-timing-function);
+      transition: var(--transition-duration);
+}
+
+.icon-smartphone {
+  fill: #757575;
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+}
+.menu-item-van:hover .icon-envelope,
+.menu-item-van:focus .icon-envelope {
+  fill: var(--logo-color-blue-blue);
+}
+.menu-item-van:hover .icon-smartphone,
+.menu-item-van:focus .icon-smartphone {
+  fill: var(--logo-color-blue-blue);
+}
+.current-li {
+  color: var(--logo-color-blue-blue);
+  position: relative;
+  transition-property: color;
+    &:hover,
+    &:focus {
+    color: var(--logo-color-blue-blue);
+  }
+}
+.current-li::after {
+  background-color: var(--logo-color-blue-blue);
 }

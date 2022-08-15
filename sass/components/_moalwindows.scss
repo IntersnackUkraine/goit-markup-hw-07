@@ -8,7 +8,11 @@
   background-color: rgba(0, 0, 0, 0.2);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
-
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal {
@@ -39,45 +43,32 @@
   padding: 0;
   transition: border-color var(--transition-timing-function);
   transition: border-color var(--transition-duration);
+      &:hover,
+      &:focus {
+      border-color: var(--logo-color-blue-blue);
+    }
 }
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  border-color: var(--logo-color-blue-blue);
-
-}
-
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: var(--logo-color-blue-blue);
 }
-
 .modal-close-btn-icon {
   transition: fill var(--transition-timing-function);
   transition: fill var(--transition-duration);
-}
-
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 .current-page {
   color: var(--accent-color);
   position: relative;
   transition-property: color;
-}
-
-.current-page:hover,
-.current-page:focus {
-  color: var(--logo-color-blue-blue);
-
+    &:hover,
+    &:focus {
+      color: var(--logo-color-blue-blue);
+    }
 }
 
 .current-page::after {
   background-color: var(--accent-color);
 }
-
 .current-page:hover::after,
 .current-page:focus::after {
   background-color: var(--logo-color-blue-blue);
