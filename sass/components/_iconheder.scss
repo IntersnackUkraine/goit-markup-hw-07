@@ -17,14 +17,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+    &:hover,
+    &:focus {
+      fill: var(--logo-color-blue-blue);
+    }
 }
-.smartphone:hover,
-.smartphone:focus {
-  fill: var(--logo-color-blue-blue);
-}
+
 .smart {
   margin-left: 30px;
 }
+
 .listmp {
   list-style: none;
   display: flex;
