@@ -1,4 +1,4 @@
-.menu-item {
+.menu__item {
   position: relative;
   display: inline-block;
   padding-top: 32px;
@@ -15,7 +15,7 @@
       color: var(--logo-color-blue-blue);
     }
 }
-.menu-item::after {
+.menu__item::after {
   content: '';
   display: block;
   position: absolute;
@@ -27,8 +27,8 @@
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.menu-item:hover::after,
-.menu-item:focus::after {
+.menu__item:hover::after,
+.menu__item:focus::after {
   background-color: var(--logo-color-blue-blue);
 }
 .menu-item-van {
