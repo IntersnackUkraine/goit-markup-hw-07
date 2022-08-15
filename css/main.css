@@ -263,7 +263,7 @@ body:focus {
   display: flex;
 }
 
-.listmp .menu-li:not(:last-child) {
+.v .menu-li:not(:last-child) {
   margin-right: 50px;
 }
 
