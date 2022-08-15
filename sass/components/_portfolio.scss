@@ -1,7 +1,9 @@
-.borhed {
-  border-bottom: solid 1px #EEEEEE;
-}
 
+.sectportfolio {
+  padding-bottom: 104px;
+  padding-top: 84px;
+  
+}
 .button-portolio {
   margin-left: 8px;
   border: none;
@@ -16,25 +18,15 @@
   letter-spacing: 0.03em;
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
+    &:hover,
+    &:focus {
+      background-color: var(--logo-color-blue-blue);
+      color: var(--main-header-background-size);
+      box-shadow: var(--shadow);
+    }
 }
 
-.button-portolio:hover,
-.button-portolio:focus {
-  background-color: var(--logo-color-blue-blue);
-  color: var(--main-header-background-size);
-  cursor: pointer;
-  box-shadow: var(--shadow);
-
-}
-
-.qwet:hover {
-  text-decoration: none;
-  box-shadow: var(--shadow)
-}
-
-.qwet {
-  cursor: pointer;
-}
 .one {
   margin-left: 280px;
 }
+

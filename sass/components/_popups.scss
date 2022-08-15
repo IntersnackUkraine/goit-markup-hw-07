@@ -1,3 +1,18 @@
+
+.qwe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-sizing: content-box;
+}
+.team-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.team-list-item {
+  text-decoration: none;
+  display: block;
+}
 .overlay {
   position: absolute;
   left: 0;
@@ -19,56 +34,22 @@
   transform: translate(0, 100%);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
-  
 }
-
 .team-list-item:hover .overlay,
 .team-list-item:focus .overlay {
   transform: translate(0, 0);
 }
-
-.team-list-item {
-  text-decoration: none;
-  display: block;
-}
-
-.team-list-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-/* ============================================== */
-.none {
-  display: none;
-}
-
-.qwe {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  box-sizing: content-box;
-}
-
 .productweb {
-
   padding: 20px 24px 20px 24px;
   border: solid 1px #EEEEEE;
 }
-
-.sectportfolio {
-  padding-bottom: 104px;
-  padding-top: 84px;
-}
-
 .product {
-
   font-weight: var(--font-weight700);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--border-top-color);
 }
-
 .web {
   font-weight: var(--font-weight400);
   font-size: 16px;
@@ -76,3 +57,11 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+/* ============================================== */
+
+
+
+
+
+

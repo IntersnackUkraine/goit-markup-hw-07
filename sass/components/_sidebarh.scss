@@ -1,7 +1,19 @@
-.pad {
-  padding-bottom: 0;
+// .pad {
+//   padding-bottom: 0;
+// }
+
+// =================
+
+.mnbr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
 }
 
+// ==============================
 .sidebarh {
   margin-top: 30px;
   font-weight: var(--font-weight700);
@@ -19,33 +31,6 @@
   color: var(--primary-text-color);
 }
 
-.sideb {
-  gap: 30px;
-}
 
-.itemremrem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.mnbr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-}
 
-.mnb {
-  /* padding-top: 25px;
-    padding-bottom: 25px; */
-
-  background-color: #F5F4FA;
-}
-
-.mvbb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

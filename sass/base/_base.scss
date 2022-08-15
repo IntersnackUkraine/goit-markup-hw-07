@@ -4,6 +4,9 @@
   font-family: inherit;
   display: flex;
 }
+.none {
+  display: none;
+}
 body {
   box-sizing: initial;
   background-color: var(--main-header-background-size);
