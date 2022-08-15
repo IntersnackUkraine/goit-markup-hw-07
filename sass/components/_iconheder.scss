@@ -26,12 +26,15 @@
 .smart {
   margin-left: 30px;
 }
-
+.v {
+    list-style: none;
+      display: flex;
+}
 .listmp {
   list-style: none;
   display: flex;
 }
-.menu-li:not(:last-child) {
+.v .menu-li:not(:last-child) {
   margin-right: 50px;
 }
 .list:not(:last-child) {
