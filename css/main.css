@@ -258,12 +258,7 @@ body:focus {
   margin-left: 30px;
 }
 
-.listmp {
-  list-style: none;
-  display: flex;
-}
-
-.v .menu-li:not(:last-child) {
+.menu-li:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -334,7 +329,7 @@ body:focus {
   background-color: #F5F4FA;
 }
 
-.gaparh {
+.sidebarh {
   margin-top: 30px;
   font-weight: var(--font-weight700);
   line-height: 1.14;
@@ -342,7 +337,7 @@ body:focus {
   text-transform: uppercase;
 }
 
-.gaparp {
+.sidebarp {
   margin-top: 10px;
   font-size: 14px;
   font-weight: var(--font-weight400);
