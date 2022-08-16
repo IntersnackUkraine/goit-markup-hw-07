@@ -233,13 +233,7 @@ body:focus {
   margin-left: 305px;
 }
 
-<<<<<<< HEAD
-.mailto__menu__smart {
-  margin-right: 10px;
-}
-.mailto__menu__smart:hover, .mailto__menu__smart:focus {
-=======
-.itemrem {
+.mailto__menu__smart .itemrem {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -249,14 +243,16 @@ body:focus {
 .smartphone {
   margin-right: 10px;
 }
-
-.smartphone:hover,
-.smartphone:focus {
->>>>>>> ba606af02c531ce7b2076a13b2ee4916675e8832
+.smartphone:hover, .smartphone:focus {
   fill: var(--logo-color-blue-blue);
 }
 
-.br_smart {
+.smartphone:hover,
+.smartphone:focus {
+  fill: var(--logo-color-blue-blue);
+}
+
+.smart {
   margin-left: 30px;
 }
 
