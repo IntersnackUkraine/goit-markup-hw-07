@@ -4,7 +4,7 @@
 
 // =================
 
-.mnbr {
+.section-card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 // ==============================
-.sidebarh {
+.card {
   margin-top: 30px;
   font-weight: var(--font-weight700);
   line-height: 1.14;
@@ -22,7 +22,7 @@
   text-transform: uppercase;
 }
 
-.sidebarp {
+.section-card__text {
   margin-top: 10px;
   font-size: 14px;
   font-weight: var(--font-weight400);

@@ -1,4 +1,4 @@
-.doing {
+.section__title {
   margin-bottom: 50px;
   font-weight: var(--font-weight700);
   font-size: var(--font-size36);
@@ -6,17 +6,17 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.technicalim {
-  gap: 30px;
-}
-.technicali-foto {
+// .technicalim {
+//   gap: 30px;
+// }
+.technic-card__foto {
   width: 370px;
   height: 294px;
 }
-.box-div {
+.box-technic{
   position: relative;
 }
-.box-tech {
+.technic-card__text {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   text-transform: uppercase;
   color: var(--main-header-background-size);
 }
-.technicali {
+.technic-card {
   align-items: center;
   justify-content: center;
   border: transparent;

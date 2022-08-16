@@ -256,7 +256,7 @@ body:focus {
   fill: var(--logo-color-blue-blue);
 }
 
-.smart {
+.br-smart {
   margin-left: 30px;
 }
 
@@ -278,7 +278,7 @@ body:focus {
   color: var(--primary-text-color);
 }
 
-.business-solution {
+.business-title {
   width: 696px;
   margin: auto;
   font-weight: 900;
@@ -290,7 +290,7 @@ body:focus {
   color: var(--main-header-background-size);
 }
 
-.divbusiness {
+.business {
   background-color: var(--main-background-hooter-color);
   width: 1600px;
   margin: auto;
@@ -302,7 +302,7 @@ body:focus {
   background-position: center;
 }
 
-.main-button {
+.business-button {
   background-color: var(--logo-color-blue-blue);
   font-family: var(--font-roboto);
   color: var(--main-header-background-size);
@@ -323,11 +323,11 @@ body:focus {
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.main-button:hover, .main-button:focus {
+.business-button:hover, .business-button:focus {
   background-color: var(--homepage-button-color);
 }
 
-.mnbr {
+.section-card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +336,7 @@ body:focus {
   background-color: #F5F4FA;
 }
 
-.sidebarh {
+.card {
   margin-top: 30px;
   font-weight: var(--font-weight700);
   line-height: 1.14;
@@ -344,7 +344,7 @@ body:focus {
   text-transform: uppercase;
 }
 
-.sidebarp {
+.section-card__text {
   margin-top: 10px;
   font-size: 14px;
   font-weight: var(--font-weight400);
@@ -353,7 +353,7 @@ body:focus {
   color: var(--primary-text-color);
 }
 
-.doing {
+.section__title {
   margin-bottom: 50px;
   font-weight: var(--font-weight700);
   font-size: var(--font-size36);
@@ -362,20 +362,16 @@ body:focus {
   letter-spacing: 0.03em;
 }
 
-.technicalim {
-  gap: 30px;
-}
-
-.technicali-foto {
+.technic-card__foto {
   width: 370px;
   height: 294px;
 }
 
-.box-div {
+.box-technic {
   position: relative;
 }
 
-.box-tech {
+.technic-card__text {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -390,7 +386,7 @@ body:focus {
   color: var(--main-header-background-size);
 }
 
-.technicali {
+.technic-card {
   align-items: center;
   justify-content: center;
   border: transparent;
