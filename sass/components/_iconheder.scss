@@ -10,14 +10,14 @@
   justify-content: center;
   color: var(--primary-text-color);
 }
-.yu {
+.smartphone {
   margin-right: 10px;
 }
-.smartphone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+// .smartphone {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 .smartphone:hover,
 .smartphone:focus {
   fill: var(--logo-color-blue-blue);

@@ -239,14 +239,8 @@ body:focus {
   color: var(--primary-text-color);
 }
 
-.yu {
-  margin-right: 10px;
-}
-
 .smartphone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 10px;
 }
 
 .smartphone:hover,
