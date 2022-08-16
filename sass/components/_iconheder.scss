@@ -20,12 +20,12 @@
 //   align-items: center;
 //   justify-content: center;
 // }
-.mailto__menu__smart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-text-color);
-}
+// .mailto__menu__smart {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: var(--primary-text-color);
+// }
 // .smartphone {
 //   margin-right: 10px;
 //     &:hover,
@@ -38,15 +38,19 @@
 // .smartphone:focus {
 //   fill: var(--logo-color-blue-blue);
 // }
-.br_smart {
-    margin-right: 10px;
-}
+// .br-smar {
+//     margin-right: 10px;
+// }
 
 .smartphone:hover,
 .smartphone:focus {
   fill: var(--logo-color-blue-blue);
 }
 .mailto__menu__smart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-text-color);
     margin-right: 10px;
     &:hover,
     &:focus {

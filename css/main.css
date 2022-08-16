@@ -178,7 +178,7 @@ body:focus {
   background-color: var(--logo-color-blue-blue);
 }
 
-.mailto__menu {
+.mailto-menu {
   display: flex;
   align-items: center;
   line-height: 1.14;
@@ -187,7 +187,7 @@ body:focus {
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.mailto__menu:hover, .mailto__menu:focus {
+.mailto-menu:hover, .mailto-menu:focus {
   color: var(--logo-color-blue-blue);
 }
 
@@ -203,13 +203,13 @@ body:focus {
   transition: var(--transition-duration);
 }
 
-.mailto__menu:hover .icon-envelope,
-.mailto__menu:focus .icon-envelope {
+.mailto-menu:hover .icon-envelope,
+.mailto-menu:focus .icon-envelope {
   fill: var(--logo-color-blue-blue);
 }
 
-.mailto__menu:hover .icon-smartphone,
-.mailto__menu:focus .icon-smartphone {
+.mailto-menu:hover .icon-smartphone,
+.mailto-menu:focus .icon-smartphone {
   fill: var(--logo-color-blue-blue);
 }
 
@@ -233,23 +233,16 @@ body:focus {
   margin-left: 305px;
 }
 
-.mailto__menu__smart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-text-color);
-}
-
-.br_smart {
-  margin-right: 10px;
-}
-
 .smartphone:hover,
 .smartphone:focus {
   fill: var(--logo-color-blue-blue);
 }
 
 .mailto__menu__smart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
   margin-right: 10px;
 }
 .mailto__menu__smart:hover, .mailto__menu__smart:focus {
@@ -414,7 +407,7 @@ body:focus {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.list-linkrem {
+.list-link__br {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,7 +418,7 @@ body:focus {
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.list-linkrem:hover, .list-linkrem:focus {
+.list-link__br:hover, .list-link__br:focus {
   background-color: var(--logo-color-blue-blue);
 }
 
