@@ -13,13 +13,21 @@
 .footer-icon {
   fill: var(--main-header-background-size);
 }
-.social-link-foo {
-  margin-top: 20px;
-  justify-content: space-between;
-  &:not(:last-child) {
+// .social-link-foo {
+//   margin-top: 20px;
+//   justify-content: space-between;
+//   &:not(:last-child) {
+//       margin-right: 10px;
+//     }
+// }
+.footer-networks-social{
+    margin-top: 20px;
+    justify-content: space-between;
+    &:not(:last-child) {
       margin-right: 10px;
     }
-}
+  }
+
 .footer-networks {
   font-weight: 700;
   font-size: 14px;
@@ -29,6 +37,22 @@
   color: #FFFFFF;
   margin: 20px;
 }
+.footer-networks-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+      &:hover,
+      &:focus {
+      background-color: var(--logo-color-blue-blue);
+    }
+  }
+
 .list-linkrem-footer {
   display: flex;
   justify-content: center;
