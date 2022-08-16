@@ -233,10 +233,26 @@ body:focus {
   margin-left: 305px;
 }
 
+<<<<<<< HEAD
 .mailto__menu__smart {
   margin-right: 10px;
 }
 .mailto__menu__smart:hover, .mailto__menu__smart:focus {
+=======
+.itemrem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+}
+
+.smartphone {
+  margin-right: 10px;
+}
+
+.smartphone:hover,
+.smartphone:focus {
+>>>>>>> ba606af02c531ce7b2076a13b2ee4916675e8832
   fill: var(--logo-color-blue-blue);
 }
 
