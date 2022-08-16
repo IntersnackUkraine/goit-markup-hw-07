@@ -31,9 +31,11 @@
 .menu__item:focus::after {
   background-color: var(--logo-color-blue-blue);
 }
-.menu-item-van {
+.mailto__menu {
   display: flex;
-  text-decoration: none;
+      align-items: center;
+      // justify-content: center;
+      // text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -44,6 +46,15 @@
       color: var(--logo-color-blue-blue);
     }
 }
+// .itemrem {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: var(--primary-text-color);
+// }
+
+
+
 .icon-envelope {
   fill: #757575;
       transition: var(--transition-timing-function);
@@ -55,15 +66,15 @@
     transition: var(--transition-timing-function);
     transition: var(--transition-duration);
 }
-.menu-item-van:hover .icon-envelope,
-.menu-item-van:focus .icon-envelope {
+.mailto__menu:hover .icon-envelope,
+.mailto__menu:focus .icon-envelope {
   fill: var(--logo-color-blue-blue);
 }
-.menu-item-van:hover .icon-smartphone,
-.menu-item-van:focus .icon-smartphone {
+.mailto__menu:hover .icon-smartphone,
+.mailto__menu:focus .icon-smartphone {
   fill: var(--logo-color-blue-blue);
 }
-.current-li {
+.menu__current {
   color: var(--logo-color-blue-blue);
   position: relative;
   transition-property: color;
@@ -72,6 +83,6 @@
     color: var(--logo-color-blue-blue);
   }
 }
-.current-li::after {
+.menu__current::after {
   background-color: var(--logo-color-blue-blue);
 }

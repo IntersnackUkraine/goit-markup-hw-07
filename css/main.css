@@ -78,8 +78,9 @@ img {
   margin: auto;
 }
 
-.button-p {
+.br-button {
   margin-bottom: 50px;
+  margin-left: 280px;
 }
 
 .gap {
@@ -177,16 +178,16 @@ body:focus {
   background-color: var(--logo-color-blue-blue);
 }
 
-.menu-item-van {
+.mailto__menu {
   display: flex;
-  text-decoration: none;
+  align-items: center;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.menu-item-van:hover, .menu-item-van:focus {
+.mailto__menu:hover, .mailto__menu:focus {
   color: var(--logo-color-blue-blue);
 }
 
@@ -202,26 +203,26 @@ body:focus {
   transition: var(--transition-duration);
 }
 
-.menu-item-van:hover .icon-envelope,
-.menu-item-van:focus .icon-envelope {
+.mailto__menu:hover .icon-envelope,
+.mailto__menu:focus .icon-envelope {
   fill: var(--logo-color-blue-blue);
 }
 
-.menu-item-van:hover .icon-smartphone,
-.menu-item-van:focus .icon-smartphone {
+.mailto__menu:hover .icon-smartphone,
+.mailto__menu:focus .icon-smartphone {
   fill: var(--logo-color-blue-blue);
 }
 
-.current-li {
+.menu__current {
   color: var(--logo-color-blue-blue);
   position: relative;
   transition-property: color;
 }
-.current-li:hover, .current-li:focus {
+.menu__current:hover, .menu__current:focus {
   color: var(--logo-color-blue-blue);
 }
 
-.current-li::after {
+.menu__current::after {
   background-color: var(--logo-color-blue-blue);
 }
 
@@ -232,29 +233,14 @@ body:focus {
   margin-left: 305px;
 }
 
-.itemrem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-text-color);
-}
-
-.yu {
+.mailto__menu__smart {
   margin-right: 10px;
 }
-
-.smartphone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.smartphone:hover,
-.smartphone:focus {
+.mailto__menu__smart:hover, .mailto__menu__smart:focus {
   fill: var(--logo-color-blue-blue);
 }
 
-.smart {
+.br_smart {
   margin-left: 30px;
 }
 
@@ -520,13 +506,14 @@ body:focus {
   margin-right: 10px;
 }
 
-.name-footer {
+.footer-networks {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 20px;
 }
 
 .list-linkrem-footer {
@@ -544,13 +531,13 @@ body:focus {
   background-color: var(--logo-color-blue-blue);
 }
 
-.logofooter {
+.logo-footer {
   text-decoration: none;
   display: flex;
   margin-bottom: 20px;
 }
 
-.logo-studio-footer {
+.logo-footer-studio {
   font-family: "Raleway";
   font-weight: var(--font-weight700);
   font-size: var(--font-size26);
@@ -567,7 +554,7 @@ body:focus {
   color: var(--main-header-background-size);
 }
 
-.tel-footer {
+.footer-contact {
   margin-top: 9px;
   font-style: var(--font-style);
   font-weight: var(--font-weight400);
@@ -576,21 +563,25 @@ body:focus {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.qwe {
-  display: flex;
+.portfolio {
   flex-wrap: wrap;
   gap: 30px;
   box-sizing: content-box;
 }
 
-.team-list-wrapper {
+.team-list__wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.team-list-item {
+.team-list {
   text-decoration: none;
   display: block;
+}
+
+.team-list:hover,
+.team-list:focus {
+  box-shadow: var(--shadow);
 }
 
 .overlay {
@@ -616,8 +607,8 @@ body:focus {
   transition: var(--transition-duration);
 }
 
-.team-list-item:hover .overlay,
-.team-list-item:focus .overlay {
+.team-list:hover .overlay,
+.team-list:focus .overlay {
   transform: translate(0, 0);
 }
 
@@ -667,10 +658,6 @@ body:focus {
   background-color: var(--logo-color-blue-blue);
   color: var(--main-header-background-size);
   box-shadow: var(--shadow);
-}
-
-.one {
-  margin-left: 280px;
 }
 
 .backdrop {

@@ -20,13 +20,14 @@
       margin-right: 10px;
     }
 }
-.name-footer {
+.footer-networks {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 20px;
 }
 .list-linkrem-footer {
   display: flex;
@@ -43,12 +44,12 @@
         background-color: var(--logo-color-blue-blue);
       }
 }
-.logofooter {
+.logo-footer {
   text-decoration: none;
   display: flex;
   margin-bottom: 20px;
 }
-.logo-studio-footer {
+.logo-footer-studio {
   font-family: 'Raleway';
   font-weight: var(--font-weight700);
   font-size: var(--font-size26);
@@ -63,7 +64,7 @@
   letter-spacing: 0.03em;
   color: var(--main-header-background-size);
 }
-.tel-footer {
+.footer-contact {
   margin-top: 9px;
   font-style: var(--font-style);
   font-weight: var(--font-weight400);

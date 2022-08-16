@@ -1,17 +1,23 @@
 
-.qwe {
-  display: flex;
+.portfolio {
+  // display: flex;
   flex-wrap: wrap;
   gap: 30px;
   box-sizing: content-box;
+  
 }
-.team-list-wrapper {
+.team-list__wrapper {
   position: relative;
   overflow: hidden;
 }
-.team-list-item {
+.team-list {
   text-decoration: none;
   display: block;
+  
+}
+.team-list:hover,
+.team-list:focus{
+box-shadow: var(--shadow);
 }
 .overlay {
   position: absolute;
@@ -35,8 +41,8 @@
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.team-list-item:hover .overlay,
-.team-list-item:focus .overlay {
+.team-list:hover .overlay,
+.team-list:focus .overlay {
   transform: translate(0, 0);
 }
 .productweb {
