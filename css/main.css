@@ -355,7 +355,7 @@ body:focus {
   letter-spacing: 0.03em;
 }
 
-.technic-card_img {
+.technic-card-img {
   width: 370px;
   height: 294px;
 }
@@ -364,7 +364,7 @@ body:focus {
   position: relative;
 }
 
-.technic-card__text {
+.technic-card-text {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -407,7 +407,7 @@ body:focus {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.list-link__br {
+.list-link-br {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,7 +418,7 @@ body:focus {
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
 }
-.list-link__br:hover, .list-link__br:focus {
+.list-link-br:hover, .list-link-br:focus {
   background-color: var(--logo-color-blue-blue);
 }
 
@@ -441,7 +441,7 @@ body:focus {
   color: var(--primary-text-color);
 }
 
-.card__title {
+.card-title {
   border: transparent;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
