@@ -405,19 +405,12 @@ body:focus {
   fill: #AFB1B8;
 }
 
-.list-linkrem:hover,
-.list-linkrem:focus {
-  background-color: var(--logo-color-blue-blue);
-}
-
-.list-linkrem:hover .socail-list-icon,
-.list-linkrem:focus .socail-list-icon {
-  fill: var(--main-header-background-size);
-}
-
 .socail-list-icon {
   transition: fill var(--transition-timing-function);
   transition: fill var(--transition-duration);
+}
+.socail-list-icon:hover .socail-list-icon, .socail-list-icon:focus .socail-list-icon {
+  fill: var(--main-header-background-size);
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -431,10 +424,12 @@ body:focus {
   background-color: var(--main-header-background-size);
   transition: var(--transition-timing-function);
   transition: var(--transition-duration);
-  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+}
+.list-linkrem:hover, .list-linkrem:focus {
+  background-color: var(--logo-color-blue-blue);
 }
 
-.name {
+.card-item__name {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -443,7 +438,7 @@ body:focus {
   letter-spacing: 0.03em;
 }
 
-.jobtitle {
+.card-item__job {
   margin-top: 10px;
   font-weight: var(--font-weight400);
   font-size: 16px;
@@ -453,17 +448,17 @@ body:focus {
   color: var(--primary-text-color);
 }
 
-.jio {
+.card__title {
   border: transparent;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team {
+.primary {
   background-color: #F5F4FA;
 }
 
-.namejobtitle {
+.card-item {
   background-color: var(--main-header-background-size);
   padding: 30px;
 }
