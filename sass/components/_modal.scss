@@ -13,7 +13,7 @@
 .form-modal {
   margin-bottom: 16px;
 }
-.modal-form-input-desc {
+.modal-form__input-desc {
   display: block;
   font-size: 12px;
   font-weight: 400;
@@ -22,7 +22,7 @@
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
 }
-.modal-form-input-wrapper {
+.modal-form__input__wrapper {
   display: block;
   position: relative;
 }
