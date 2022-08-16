@@ -20,49 +20,53 @@
 //   align-items: center;
 //   justify-content: center;
 // }
-.mailto__menu__smart 
-.itemrem {
+.mailto__menu__smart {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-text-color);
 }
-.smartphone {
-  margin-right: 10px;
-    &:hover,
-    &:focus {
-      fill: var(--logo-color-blue-blue);
-    }
-}
+// .smartphone {
+//   margin-right: 10px;
+//     &:hover,
+//     &:focus {
+//       fill: var(--logo-color-blue-blue);
+//     }
+// }
 
 // .smartphone:hover,
 // .smartphone:focus {
 //   fill: var(--logo-color-blue-blue);
 // }
-.br_smart {}
+.br_smart {
+    margin-right: 10px;
+}
 
-// .smartphone {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
 .smartphone:hover,
 .smartphone:focus {
   fill: var(--logo-color-blue-blue);
 }
+.mailto__menu__smart {
+    margin-right: 10px;
+    &:hover,
+    &:focus {
+      fill: var(--logo-color-blue-blue);
+    }
+  }
+
 .smart {
   margin-left: 30px;
 }
-// .list-mp {
-//   list-style: none;
-//   display: flex;
-// }
+.list-mp {
+  list-style: none;
+  display: flex;
+}
 .menu:not(:last-child) {
   margin-right: 50px;
 }
-// .list:not(:last-child) {
-//   margin-right: 30px;
-// }
+.list:not(:last-child) {
+  margin-right: 30px;
+}
 .tel {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);

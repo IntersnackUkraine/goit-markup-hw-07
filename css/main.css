@@ -233,18 +233,15 @@ body:focus {
   margin-left: 305px;
 }
 
-.mailto__menu__smart .itemrem {
+.mailto__menu__smart {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-text-color);
 }
 
-.smartphone {
+.br_smart {
   margin-right: 10px;
-}
-.smartphone:hover, .smartphone:focus {
-  fill: var(--logo-color-blue-blue);
 }
 
 .smartphone:hover,
@@ -252,12 +249,28 @@ body:focus {
   fill: var(--logo-color-blue-blue);
 }
 
+.mailto__menu__smart {
+  margin-right: 10px;
+}
+.mailto__menu__smart:hover, .mailto__menu__smart:focus {
+  fill: var(--logo-color-blue-blue);
+}
+
 .smart {
   margin-left: 30px;
 }
 
+.list-mp {
+  list-style: none;
+  display: flex;
+}
+
 .menu:not(:last-child) {
   margin-right: 50px;
+}
+
+.list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .tel {
