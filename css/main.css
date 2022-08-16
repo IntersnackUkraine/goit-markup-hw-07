@@ -715,7 +715,7 @@ body:focus {
   padding: 40px;
 }
 
-.modal-close-btn {
+.modal__close {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -731,18 +731,16 @@ body:focus {
   transition: border-color var(--transition-timing-function);
   transition: border-color var(--transition-duration);
 }
-.modal-close-btn:hover, .modal-close-btn:focus {
+.modal__close:hover, .modal__close:focus {
   border-color: var(--logo-color-blue-blue);
 }
 
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon {
-  fill: var(--logo-color-blue-blue);
-}
-
-.modal-close-btn-icon {
+.modal__close__icon {
   transition: fill var(--transition-timing-function);
   transition: fill var(--transition-duration);
+}
+.modal__close:hover .modal__close__icon, .modal__close:focus .modal__close__icon {
+  fill: var(--logo-color-blue-blue);
 }
 
 .current-page {
@@ -777,7 +775,7 @@ body:focus {
   flex-direction: column;
 }
 
-.modal-form-field {
+.form-modal {
   margin-bottom: 16px;
 }
 
@@ -832,7 +830,7 @@ body:focus {
   transition: fill var(--transition-duration);
 }
 
-.modal-form-message {
+.form-modal-message {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   height: 120px;
@@ -842,7 +840,7 @@ body:focus {
   transition: border-color var(--transition-timing-function);
   transition: border-color var(--transition-duration);
 }
-.modal-form-message:focus, .modal-form-message:hover {
+.form-modal-message:focus, .form-modal-message:hover {
   border-color: var(--logo-color-blue-blue);
 }
 
@@ -969,7 +967,7 @@ body:focus {
   background-color: #188ce8;
 }
 
-.email-form-icon {
+.email-form__icon {
   fill: currentColor;
   margin-left: 10px;
 }

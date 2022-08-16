@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
 }
-.modal-form-field {
+.form-modal {
   margin-bottom: 16px;
 }
 .modal-form-input-desc {
@@ -61,7 +61,7 @@
   transition: fill var(--transition-duration);
 }
 
-.modal-form-message {
+.form-modal-message {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   height: 120px;
