@@ -1,7 +1,6 @@
 .social-link {
   margin-top: 16px;
   justify-content: space-between;
-
 }
 
 .social-link:not(:last-child) {
@@ -21,20 +20,6 @@
     fill: var(--main-header-background-size);
   }
 }
-
-// .socail-list-icon {
-//   fill: #AFB1B8;
-// }
-// .socail-list-icon {
-//   transition: fill var(--transition-timing-function);
-//   transition: fill var(--transition-duration);
-//       &:hover .socail-list-icon,
-//       &:focus .socail-list-icon {
-//       fill: var(--main-header-background-size);
-//     }
-// }
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .social-link__br {
   display: flex;
   justify-content: center;

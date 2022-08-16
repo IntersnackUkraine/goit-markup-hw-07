@@ -48,10 +48,7 @@
       border-color: var(--logo-color-blue-blue);
     }
 }
-// .modal__close:hover .modal__close__icon,
-// .modal__close:focus .modal__close__icon {
-//   fill: var(--logo-color-blue-blue);
-// }
+
 .modal__close__icon {
   transition: fill var(--transition-timing-function);
   transition: fill var(--transition-duration);
